@@ -85,7 +85,7 @@
 
 function mostrarDatosLimitados(data, limite) {
     $('#cuerpoTabla').empty(); 
-    for (var i = 0; i < limite && i < data.rows.length; i++) {
+    for (var i = 0; i < limite; i++) {
         var nombre = data.rows[i].value.Canton;
         var nombreInstitucion = data.rows[i].value.Nombre_Institucion;
         var provincia = data.rows[i].value.Provincia;
